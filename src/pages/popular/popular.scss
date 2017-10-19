@@ -1,0 +1,35 @@
+page-popular {
+    .movie-title {
+        font-size: 1em;
+        padding-left: 4px;
+        padding-right: 4px;
+        color: #444;
+    }
+
+    .movie-rating {
+        font-size: 0.8em;
+        color: #666;
+    }
+
+    .card {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .movie-date {
+        font-size: 0.8em;
+        color: #666;
+    }
+
+    .movie-overview {
+        color: #666;
+        font-size: 0.9em;
+        line-height: 1.5em;
+        display: inline-block; // for non Webkit browsers
+        display: -webkit-box;  // needed for the effect to cut off
+        -webkit-line-clamp: 3;  // line to cut off
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+
+    }
+}

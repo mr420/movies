@@ -1,0 +1,37 @@
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>Popular Movies</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content parralax>
+  <loader [hidden]="movies"></loader>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-12 *ngFor="let movie of movies" class="movie-card">
+        <ion-card (click)="showDetail(movie)">
+          <ion-row>
+            <ion-col col-4><img width="100%" height="120" [src]="imageBaseUrl + movie.poster_path" />
+            </ion-col>
+            <ion-col col-8>
+              <p class="movie-title">{{movie.title}}</p>
+              <ion-row>
+                <ion-col col-4>
+                  <p class="movie-rating">
+                    <ion-icon name="star" color="secondary"></ion-icon> {{movie.vote_average}} </p>
+                </ion-col>
+                <ion-col col-8 align="right">
+                  <p class="movie-date">
+                    <ion-icon name="calendar" color="primary"></ion-icon> {{movie.release_date | date:'dd-MM-yyyy'}}</p>
+                </ion-col>
+              </ion-row>
+              <p class="movie-overview">{{movie.overview}}</p>
+            </ion-col>
+          </ion-row>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

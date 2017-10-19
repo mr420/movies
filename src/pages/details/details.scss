@@ -1,0 +1,28 @@
+page-details {
+  .movie-title {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #444;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  .movie-rating {
+    font-size: 1em;
+    color: #555;
+  }
+  .movie-release {
+    font-size: 1em;
+    color: #555;
+  }
+  .movie-overview {
+    font-size: 1em;
+    text-align: justify;
+    color: #444;
+    padding: 4px;
+    line-height: 1.8em;
+  }
+  .center {
+    margin: 0 auto;
+    display: block;
+  }
+}
