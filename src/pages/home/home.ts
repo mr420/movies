@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
-
 @IonicPage()
 @Component({
   selector: 'page-home',
@@ -13,11 +12,14 @@ export class HomePage {
   tab2Root: any = 'PopularPage';
   tab3Root: any = 'UpcomingPage';
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, 
+    public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad HomePage');
   }
+
+ 
 
 }

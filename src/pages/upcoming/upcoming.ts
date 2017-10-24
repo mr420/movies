@@ -38,4 +38,8 @@ export class UpcomingPage {
     this.navCtrl.push('DetailsPage', { details: movie });
   }
 
+  gotoSettings() {
+    this.navCtrl.push('SettingsPage');
+  }
+
 }

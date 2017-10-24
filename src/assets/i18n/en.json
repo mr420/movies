@@ -1,3 +1,10 @@
 {
-    "HELLO": "Hello"
-}
+    "SETTINGS": "Settings",
+    "UPCOMING_MOVIES": "Upcoming Movies",
+    "UPCOMING": "Upcoming",
+    "POPULAR_MOVIES": "Popular Movies",
+    "POPULAR": "Popular",
+    "TOP_RATED_MOVIES": "Top Rated Movies",
+    "TOP_RATED": "Top Rated",
+    "DETAILS": "Details"
+  }

@@ -17,7 +17,7 @@ export class MoviedbProvider {
   constructor(public http: HttpClient) {
   }
 
-  getTopRatedMovies(): Observable<any> {
+  getTopRatedMovies(pageCount): Observable<any> {
     return this.http.get(this.baseUrl + this.topRatedUrl + this.apiKey)
     .map(this.extractData)
     .catch(this.handleError);

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "620578760841",
+    "firebase_url": "https://ionic-firebase-f72aa.firebaseio.com",
+    "project_id": "ionic-firebase-f72aa",
+    "storage_bucket": "ionic-firebase-f72aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620578760841:android:9495b6f3f1abce7c",
+        "android_client_info": {
+          "package_name": "io.ionic.movies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620578760841-hgf7tl9vaa6vvbj3s7hu1ve6r0d10a3e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWsZhEvlrI4fEmFB5I4FDsO3sKHeBGwNI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

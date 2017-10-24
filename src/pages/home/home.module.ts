@@ -8,6 +8,7 @@ import { TranslateModule } from '@ngx-translate/core';
     HomePage,
   ],
   imports: [
+    TranslateModule,
     IonicPageModule.forChild(HomePage),
     TranslateModule.forChild()
   ],

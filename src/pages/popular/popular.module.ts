@@ -1,3 +1,4 @@
+import { TranslateModule } from '@ngx-translate/core';
 import { DirectivesModule } from './../../directives/directives.module';
 import { ComponentsModule } from './../../components/components.module';
 import { NgModule } from '@angular/core';
@@ -10,6 +11,7 @@ import { PopularPage } from './popular';
   ],
   imports: [
     DirectivesModule,
+    TranslateModule,
     IonicPageModule.forChild(PopularPage),
     ComponentsModule
   ],
